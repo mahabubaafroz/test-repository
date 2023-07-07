@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.header{
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+#signup{
+    border: 1px solid #F53855;
+    margin-left: 30px;
+    margin-left: 30px;
+    color: #F53855;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 50px;
+
+}
+#top-menu{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    column-gap: 40px;
+    color:4F5665;
+    font-weight: 400;
+}
+main{
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        margin-top: 95px;
+    }
+    .left,.right{
+        width: 50%;
+    }
+    left h1{
+        font-weight: 500;
+        font-size: 45px;
+    }
+    .left p{
+        color: blue;
+    }
+    .hero-button{
+        color:white;
+        background-color: #F53855;
+        border: none;
+        padding: 17.5px 77.5px;
+        border-radius: 50px;
+        font-weight: 700;
+        margin-top:50px;
+        box-shadow: 0 30px 50px rgba(245, 56, 56, 0.5);
+    
+    
+    }
+    img{
+        max-width: 100%;
+    }
+    .service-overview{
+        display: flex;
+        width: 100%;
+       margin-top: 100px;
+       box-shadow:0 100px 100px 1px rgb(211, 209, 209) ;
+       border-radius: 10px;
+    }
+    .one,.two,.three{
+        width: 33.3%;
+       
+      padding:40px;
+      text-align: center;
+      display: flex;
+      column-gap: 15px;
+    
+    
+    }
+     h4,p{
+        margin: 0;
+     }
+     p{
+        margin:10px ;
+     }
+    .service-overview i {
+        color: red;
+       padding: 15px;
+       border-radius: 50%;
+        background-color: rgba(255, 0, 0, 0.2);
+    }
+    .feature{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 60px;
+        margin-top: 60px;
+    }
+    .feature>div{
+        flex-basis: 50%;
+        }
+        .feature ul{
+            padding: 0;
+            margin: 0;
+            margin-top: 30px;
+            list-style: none;
+        }
+        .feature i{
+            color: green;
+            margin-right: 10px;
+            font-size: 20px;
+        
+        }
+        .feature li{
+            margin-bottom: 10px;
+        }
+        .pricing{
+            margin-top: 120px;
+        }
+        .pricing h1,.pricing p{
+            text-align: center;
+        }
+        
+.pricing-boxes{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+     
+}
+.box{
+    flex-basis: 33.33%;
+    background-color: white;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 100px;
+    border: 2px solid gray;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.box.active{
+    border: 2px solid red;
+}
+.box h3{
+text-align: center;
+}
+.box ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.box ul li{
+    margin-bottom: 20px;
+    color: #4F5665;
+}
+.pricing-button{
+    color: red;
+    font-weight: bold;
+    background-color: white;
+    font-size:18px ;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.pricing-button.active{
+    border: 2 px solid white;
+    background-color: red;
+    color: white;
+}
+.network{
+    margin-top: 100px;
+
+}
+
+.network h1 p{
+    text-align: center;
+}
+.network img{
+    margin-top: 100px;
+}
+.user{
+    display: flex;
+ justify-content: space-between;
+ column-gap: 30px;
+    margin-top: 100px;
+}
+footer{
+    display: flex;
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color:#4F5665 ;
+    background-color:#F8F8F8 ;
+    padding: 50px;
+}
+footer .about{
+    flex-basis: 40%;
+
+}
+footer .nevigation{
+    flex-basis: 20%;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+    margin-right: 110px;
+    
+}
+footer ul a{
+    font-weight: 400;
+    color: #4F5665;
+}
